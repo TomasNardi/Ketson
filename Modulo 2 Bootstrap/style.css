@@ -1,0 +1,25 @@
+    body {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .titulo {
+        text-align: center;
+        border-radius: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .titulo-letras {
+        font-size: 4em;
+        color: rgba(0, 0, 0, 0.623);
+    }
+
+    .img-fluid {
+        border-radius: 100%;
+        border: 0.3em solid grey    ;
+    }
+    .texto-acordion {
+        background-color: rgba(128, 128, 128, 0.589);
+        padding: 1em;
+        border-radius: 0.5em;
+    }
