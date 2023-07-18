@@ -1,0 +1,206 @@
+body {
+    background: #8aa274;  
+    background: -webkit-linear-gradient(to right, #EAEAEA, #d8cfcf, #709172, #96ab8a); 
+    background: linear-gradient(to right, #eaeaea, #dbdbdb, #91a290, #99ad96);
+}
+.colorletras{
+   background-image: url(navbar.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.navbar-brand { 
+    font-size: 1.8em;
+    text-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.698);
+    font-family: Arial, Helvetica, sans-serif
+}
+.imagenLogo {
+    width: 3em;
+    height: 3em;
+    margin: 0 , 0 , 0 , 1em;
+    background-image: url(NavLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letras-bambu { 
+    color: rgb(255, 255, 255);
+    font-size: 1.8em;
+    margin-left: 1em;
+    text-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.698);
+    font-family: Arial, Helvetica, sans-serif
+}
+.letras-bambu:hover { 
+    color: rgb(7, 124, 38);
+    transition: 1s;
+    font-size: 1.8em;
+    text-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.698);
+    font-family: Arial, Helvetica, sans-serif
+}
+.nav-link  { 
+    color: rgb(255, 255, 255);
+    margin-left: 0.2em;
+    font-size: 1.2em;
+    text-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.698);
+    font-family: Arial, Helvetica, sans-serif
+}
+.nav-link:hover  { 
+    color: rgb(7, 124, 38);
+    transition: 1s;
+    font-size: 1.2em;
+    text-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.698);
+    font-family: Arial, Helvetica, sans-serif
+}
+.nav-busqueda { 
+margin-right: 2em;
+}
+.alert {
+    background-color: #eee5e58d;
+    border: 0.13em solid;
+    margin: 1em;
+}
+.alerth1 { 
+    color: rgba(1, 10, 1, 0.774);
+    font-size: 1.3em;
+}
+.textoh1 {
+    color: black;
+}
+.imagen1 {
+    margin-bottom: 1em;
+    border-radius: 1em;
+   background-color: #eaeaea;
+}
+
+.presentacion {
+margin: 2em;
+padding: 2em;
+}
+
+.imagenesVentas {
+    display: flex;
+    justify-content: space-between;
+    background-color: #50992659;
+    padding: 2em;
+    margin: 1em 4em;
+    border-radius: 0.5em;
+}
+
+.imagenesVentas1 {
+    border-radius: 0.5em;
+    height: 20em;
+    width: 20em;
+}
+
+.planta1 {
+    color: #151615da;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial ;
+}
+.planta2 {
+    color: #151615da;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial ;
+}
+.planta3 {
+    color: #151615da;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial ;
+}
+
+
+.imagenesVentas1:hover {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a1604d8;
+    border: 0.2em solid rgba(62, 136, 30, 0.494);
+    transition: 0.5s;
+    padding: 0.1em;
+    margin: 1em 1em;
+    border-radius: 0.5em;
+}
+
+.card {
+    background-color: #50992659;
+    margin: 1em 1em;
+}
+.imagenCuriosa {
+    margin: 1em;
+    height: 12em;
+    width: 20em;
+}
+.card-body {
+    background-color: #50992659;
+}
+.container1{
+    background-color: #50992659;
+    padding: 2em;
+    margin: 1em 4em;
+    border-radius: 0.5em;
+
+}
+.registrate { 
+    margin: 2em 2em;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    background-color: #5d7f5791;
+}
+.titulo1 { 
+    font-size: 2em;
+    color: #272927;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.05em 0.05em rgb(156, 154, 154);
+}
+.text-finca {
+    background-color: #50992659;
+    border-radius: 0.5em;
+}
+.contador {
+    margin-top: 1em;
+    border-radius: 0.5em;
+    border: 0.1em solid rgba(128, 128, 128, 0.672);
+    background-color: #50992642;
+    text-align: center;
+    
+}
+.contador-interno {
+    text-align: center;
+    resize: none;
+    height: 4em;
+    width: 20em;
+    margin: 1em 0em 0em 0em;
+    border-radius: 0.5em;
+}
+.boton-contador {
+    margin-top: 0em;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.2em;
+    
+}
+.listado-plantas {
+    margin-top: 1em;
+    padding: 1em;
+    border: 0.1em solid rgba(128, 128, 128, 0.672);
+    background-color: #50992642;
+    border-radius: 0.2em;
+    
+}
+
+.titulo-tabla {
+color: black;
+}
+
+.footer { 
+    background-color: #272927ee;
+    color: white;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+.footer:hover{
+    color: rgba(255, 255, 255, 0.467);
+}
+
+.footer-title {
+    margin-top: 0.1em;
+    font-size: 1.4em;
+}
