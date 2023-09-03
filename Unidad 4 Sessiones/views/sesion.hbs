@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="/stylesheets/estilo.css">
+
+<body>
+    <div class="">
+    {{#if conocido}}
+    <h1>Bienvenido nuevamente , <b> {{nombre}} </b></h1>
+    <p>Haz click <a href="/salir">Aquí</a> para cerrar tu sesion </p> 
+    {{/if}}
+
+    </div>
+
+    {{#unless conocido}}
+    <div class="">
+        <h2>Bienvenido a Nardi's Motos</h2>
+        <p>Ingrese su nombre a continuación</p>
+        <form action="/ingresar" method="post">
+            <input type="text" name="nombre"> <button>Ingresar</button>
+        </form>
+        {{/unless}}
+    </div>
+</body>
