@@ -1,0 +1,26 @@
+
+    .login{
+        margin-top: 3em;
+    }
+    .wallpaper {
+    background-image: url('../images/wallpaper.jpeg');
+    background-size: cover;
+    background-position: center center;
+    }
+
+    .titulo2 {
+        font-size: 3em;
+        text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.521);
+    }
+
+    .form-label { 
+        margin-top: 0.5em;
+    }
+
+    .sesion {
+        margin-bottom: 3em;
+    }
+
+    .ingresar{
+        margin-right: 1em;
+    }
